@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>11</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Template.Core\Template.Core.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
+            <HintPath>..\..\..\..\.nuget\packages\microsoft.extensions.hosting.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+            <HintPath>..\..\..\..\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Options">
+            <HintPath>..\..\..\..\.nuget\packages\microsoft.extensions.options\7.0.0\lib\net7.0\Microsoft.Extensions.Options.dll</HintPath>
+        </Reference>
+        <Reference Include="Spectre.Console.Cli">
+            <HintPath>..\..\..\..\.nuget\packages\spectre.console.cli\0.46.0\lib\net7.0\Spectre.Console.Cli.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>

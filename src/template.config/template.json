@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Olivier Burri",
+    "classifications": [ "Common", "Console", "CLI" ],
+    "identity": "Console.CLI.Template",
+    "name": "Console CLI App",
+    "shortName": "console-cli",
+    "sourceName": "Template",
+    "preferNameDirectory": true,
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+  }
